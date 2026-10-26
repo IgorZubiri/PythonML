@@ -27,4 +27,4 @@ for i in range(6):
     y_tr_iragarpena = knn.predict(X_tr_sc)
     mae_tr = mean_absolute_error(y_tr, y_tr_iragarpena)
     r2_tr = r2_score(y_tr, y_tr_iragarpena)
-    print(f"{i+1}. {mae_tr, mae, r2_tr, r2}") 
+    print(f"{i+1}. {mae_tr, mae, r2_tr, r2}")  
